@@ -1,3 +1,9 @@
+import numpy as np
+import scipy
+import h5py
+import matplotlib.pyplot as plt
+import math
+
 def sigmoid(Z):
 
     A = 1/(1+np.exp(-Z))
